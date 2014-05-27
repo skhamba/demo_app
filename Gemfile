@@ -12,9 +12,9 @@ group :development do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', '4.0.1'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 2.1.1'
+gem 'uglifier', '2.1.1'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 1.0.2'
 # bundle exec rake doc:rails generates the API under doc/api.
 
 group :doc do
-	gem 'sdoc', '~> 0.3.20', require: false
+	gem 'sdoc', '0.3.20', require: false
 end
 	
 # Use ActiveModel has_secure_password
@@ -45,7 +45,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :production do
 	gem 'pg', '0.15.1'
